@@ -1,0 +1,27 @@
+[
+  {
+    "source": "data_raw/sample.pdf",
+    "chunk_id": 0,
+    "text": "Somalia Flood Exposure Methodology Note\nAnalysis for 2024 HNRP\nThis technical note summarises the methodology used to calculate the number of people\npotentially exposed to flooding in Somalia in the 2024 Somalia Humanitarian Needs and\nResponse Plan (HNRP). The UN OCHA Centre for Humanitarian Data worked with awiderange\nof technical partners to develop a methodology that was then endorsed by the Somalia ICCG\nandHCT.\nDaily FloodScan (1998-2022) & WorldPop (2020 UN Adjusted) raster data wasanalysedtogain\nunderstanding of flood conditions across Somalia for both March-April-May (MAM) and\nOctober-November-December (OND) seasons. FloodScan daily flood fraction Standard Flood\nExposure Depiction (SFED) was aggregated to yearly seasonal maximum fraction composites"
+  },
+  {
+    "source": "data_raw/sample.pdf",
+    "chunk_id": 1,
+    "text": "Exposure Depiction (SFED) was aggregated to yearly seasonal maximum fraction composites\nforboththeMAMandONDseasonsforallyearsofhistoricalFloodScandata(1998-2022).\nTheyearlyseasonalSFEDcompositeswerethenprocessed/reclassifiedintwodistinctways:\n1. Compositesreclassifiedtobinaryusinga20percentfloodfractionthreshold.\n2. Composites masked to just remove any flood fraction values < 0.05 percent and the\nfloodfraction (0-100percent)retained.\nAll composites in both sets of processed yearly-seasonal flood fraction rasters were then\nmultiplied by the WorldPop (2020 UNAdjusted)populationestimaterastertocreatetwosetsof\nyearly seasonal flood exposure rasters. These were then aggregated at the second\nadministrative level via zonal statistics (sum) to obtain the estimated population exposure per"
+  },
+  {
+    "source": "data_raw/sample.pdf",
+    "chunk_id": 2,
+    "text": "administrative level via zonal statistics (sum) to obtain the estimated population exposure per\ndistrict for each season across all years for each set. These estimates were converted to the\npercent of population exposed by dividing the estimates by the total population per district\n(from World Pop raster). The percent exposure figure was then applied to the updated 2024\npopulation data set (UN OCHA, UNFPA Methodology) to obtain updated population exposure\nestimates.Thesedatawerefurtheraggregatedtoadministrativelevel1.\nRanges for exposure were estimated using percentiles for boththeMAMandONDseasonsper\nadministrative level. As ECMWF seasonal forecast predicts an above average precipitation\nseason for MAM 2024, the range of populationexposed wasbasedonthe50th-95thpercentile"
+  },
+  {
+    "source": "data_raw/sample.pdf",
+    "chunk_id": 3,
+    "text": "season for MAM 2024, the range of populationexposed wasbasedonthe50th-95thpercentile\nlevels. Since there was no available data to inform predictions for OND 2024, the 25-75th\npercentile values were used to bound the range. The lower and upper limits of therangeswere\nPage1of2"
+  },
+  {
+    "source": "data_raw/sample.pdf",
+    "chunk_id": 0,
+    "text": "calculated at the administrative level using all of the historical yearly seasonal flood exposure\nestimates. The two sets of range estimates were combined conservatively by taking the\nmaximumvalueforboththeupperandlowerboundsforeachseason.\nContact the OCHA Centre for Humanitarian Data via Leonardo Milano, Team Lead for Data\nScienceatleonardo.milano@un.orgwithanyquestionsorfeedback.\nPage2of2"
+  }
+]
